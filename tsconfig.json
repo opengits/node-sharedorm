@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "outDir": "./dist",
+      "strictPropertyInitialization": false,
+      "declaration": true,  // Generate declaration files (.d.ts)
+      "declarationMap": true,  // Generate source maps for declaration files
+      "sourceMap": true,  // Generate source maps for JavaScript files
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
+
+ 
+      
+    
+  

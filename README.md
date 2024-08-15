@@ -26,9 +26,9 @@ This library contains the shared ORM entities and database connection configurat
    npm install
    ```
 
-3. **Configure Environment Variables:**
+3. **Configure Database Variables:**
 
-   Create a `.env` file in the root directory and add the following variables:
+   Ensure details are correct in `src/index.ts` file in the root directory or modify the following variables:
 
    ```bash
    DATABASE_HOST=localhost

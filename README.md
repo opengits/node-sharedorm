@@ -1,16 +1,53 @@
 # Shared ORM Library
 
-This library contains the ORM entities and database connection settings for the `My-account` database.
+## Overview
 
-## Prerequisites
-
-- Node.js
-- TypeScript
-- PostgreSQL or MySQL
+This library contains the shared ORM entities and database connection configurations used across multiple services. It manages the database schema, provides entities, and enables database access for the backend application.
 
 ## Setup
 
-1. Install dependencies:
+### Prerequisites
+
+- **Node.js** (v14 or above)
+- **TypeScript**
+- **PostgreSQL** 
+
+### Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/opengits/node-sharedorm.git
+   ```
+
+2. **Install Dependencies:**
 
    ```bash
    npm install
+   ```
+
+3. **Configure Environment Variables:**
+
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```bash
+   DATABASE_HOST=localhost
+   DATABASE_PORT=5432
+   DATABASE_USERNAME=your_db_username
+   DATABASE_PASSWORD=your_db_password
+   DATABASE_NAME=my-account
+   ```
+
+4. **Build the Project:**
+
+   ```bash
+   npm run build
+   ```
+
+5. **Run Migrations (if applicable):**
+
+   ```bash
+   npm run typeorm migration:run
+   ```
+
+---
